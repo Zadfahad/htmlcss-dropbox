@@ -18,12 +18,49 @@
 .margin-bt {
   margin-bottom: 6em;
 }
+.col {
+  float: left;
+}
+ul {
+  list-style: none;
+}
 /* /COMMON */
 .navbar {
   height: 70px;
   /* TEST */
-  background-color: blue;
+
   border: 2px solid red;
+}
+
+.nav-logo {
+  width: 10%;
+}
+.nav-logo img {
+  margin-top: 1em;
+  height: 1.2em;
+}
+.nav-left {
+  width: 30%;
+  line-height: 3em;
+}
+.nav-btn,
+.btn-inizia {
+  padding: 0.1em 0.3em;
+  color: white;
+  background-color: #0061ff;
+}
+.btn-inizia {
+  line-height: normal;
+}
+.nav-right {
+  width: 30%;
+  line-height: 3em;
+}
+
+.header-menu,
+li {
+  display: inline-block;
+  padding-left: 1em;
 }
 /* MAIN */
 /* BANNER */
