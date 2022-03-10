@@ -1,0 +1,45 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-container {
+  width: auto;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* COMMON */
+.margin-bt {
+  margin-bottom: 6em;
+}
+/* /COMMON */
+.navbar {
+  height: 70px;
+  /* TEST */
+  background-color: blue;
+  border: 2px solid red;
+}
+/* MAIN */
+/* BANNER */
+.banner {
+  height: 400px;
+  background-color: #b4d0e7;
+  /* TEST */
+  border: 2px solid red;
+}
+/* </BANNER> */
+
+/* <MAIN SECTIONS> */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* TEST */
+  border: 2px solid red;
+}
+/* </MAIN SECTIONS> */
