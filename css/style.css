@@ -17,6 +17,9 @@ a {
 .mg-top {
   margin-top: 15em;
 }
+.members-mg-top {
+  margin-top: 3em;
+}
 .pd-top {
   padding-top: 7em;
 }
@@ -309,4 +312,187 @@ li {
 }
 
 /* /SECTION USER OF DROPBOX */
+
+/* SECTION-MEMBERS */
+
+.members-container {
+  width: 100%;
+  min-height: 400px;
+  /* test */
+  background-color: aquamarine;
+}
+.members-left {
+  width: 30%;
+  min-height: 400px;
+  float: left;
+  /* test */
+  background-color: red;
+}
+.member1 {
+  width: 50%;
+  min-height: 200px;
+  float: left;
+
+  border: 0.5em solid #d0e9cd;
+  /* test */
+  background-color: #a2d39b;
+}
+.member2 {
+  width: 50%;
+  min-height: 200px;
+  float: left;
+  /* test */
+  background-color: #61082b;
+}
+.member2 img {
+  width: 7em;
+
+  margin-top: 1em;
+  margin-left: 4em;
+}
+.member3 {
+  width: 50%;
+  min-height: 200px;
+  float: left;
+  /* test */
+  background-color: #0093ce;
+}
+.member4 {
+  width: 50%;
+  min-height: 200px;
+  float: left;
+  /* test */
+  background-color: #ff1c1c;
+}
+.member4 img {
+  width: 7em;
+  margin-top: 1em;
+  margin-left: 4em;
+}
+.members-center {
+  width: 40%;
+  min-height: 400px;
+  float: left;
+  /* test */
+  background-color: #f5f5f5;
+}
+.members-center img {
+  width: 7em;
+  margin-top: 4em;
+  margin-left: 3em;
+}
+.members-center .members {
+  margin-top: 6em;
+  margin-left: 3em;
+}
+.members-right {
+  width: 30%;
+  min-height: 400px;
+  float: left;
+  /* test */
+  background-color: red;
+}
+.member5 {
+  width: 50%;
+  min-height: 200px;
+  float: left;
+  /* test */
+  background-color: #d5001f;
+}
+.member5 img {
+  width: 7em;
+  margin-top: 1em;
+  margin-left: 4em;
+}
+.member6 {
+  width: 50%;
+  min-height: 200px;
+  float: left;
+  /* test */
+  background-color: #b4d0e7;
+}
+.member7 {
+  width: 50%;
+  min-height: 200px;
+  float: left;
+  /* test */
+  background-color: #0d2481;
+}
+.member7 img {
+  width: 7em;
+  margin-top: 1em;
+  margin-left: 4em;
+}
+.member8 {
+  width: 50%;
+  min-height: 200px;
+  float: left;
+  /* test */
+  background-color: #ffd830;
+}
+.member8 img {
+  width: 7em;
+  margin-top: 1em;
+  margin-left: 4em;
+}
+
+/* /SECTION-MEMBERS */
+
+/* SECTION PROVA GRATIS */
+
+.prova-gratis-container {
+  width: 100%;
+  min-height: 300px;
+  background-color: #b4d0e7;
+}
+.two-prova-containers {
+  width: 60%;
+  margin: auto;
+  min-height: 300px;
+}
+.prova-container1 {
+  width: 50%;
+  min-height: 300px;
+  float: left;
+}
+.prova-container2 {
+  width: 50%;
+  min-height: 300px;
+  float: left;
+}
+.btn-white {
+  display: inline-block;
+  margin-top: 4em;
+  margin-left: 3em;
+}
+.btn-white a {
+  padding: 0.5em 2em;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+/* SECTION PROVA GRATIS */
+
+/* CONTAINER DOMANDE */
+
+.domande-container {
+  width: 60%;
+  margin: auto;
+  min-height: 600px;
+  /* test */
+  background-color: yellow;
+}
+
+/* /CONTAINER DOMANDE */
 /* </MAIN SECTIONS> */
+
+/* FOOTER */
+
+.footer-container {
+  width: 100%;
+  min-height: 400px;
+  background-color: #000000;
+}
+
+/* /FOOTER */
