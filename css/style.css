@@ -14,6 +14,12 @@ img {
 a {
   text-decoration: none;
 }
+.mg-top {
+  margin-top: 15em;
+}
+.pd-top {
+  padding-top: 7em;
+}
 .clearfix::after {
   content: "";
   display: table;
@@ -111,5 +117,191 @@ li {
 /* </BANNER> */
 
 /* <MAIN SECTIONS> */
+.section-container {
+  width: 60%;
+  margin: auto;
+  min-height: 200px;
+  background-color: blanchedalmond;
+}
 
+.plan h2 {
+  font-size: 3em;
+}
+.plan-choice {
+  margin-top: 3em;
+}
+.select-box {
+  display: inline-block;
+}
+.plan-container {
+  width: 60%;
+  margin: auto;
+  min-height: 800px;
+}
+.plan-title {
+  text-align: center;
+}
+.plan-description {
+}
+.mg-left {
+  padding: 1em 1em;
+}
+.mg-btm {
+  padding: 1em 0;
+}
+.storage {
+  margin-left: 0.5em;
+}
+.user {
+  margin-left: 0.5em;
+}
+.plan-price {
+  margin-left: 0.5em;
+}
+.leftbox {
+  float: left;
+
+  border: 1px solid gray;
+  width: 30%;
+  min-height: 600px;
+}
+
+.plan1 {
+  margin-right: 6em;
+}
+.mg-right {
+  margin-right: 5.5em;
+}
+.mg-up {
+  margin-top: 3em;
+}
+.line {
+  border: 0.5px solid gray;
+}
+
+.btn-plan {
+  display: inline-block;
+  text-align: center;
+  margin-top: 3em;
+  margin-left: 1em;
+}
+.btn-plan a {
+  padding: 0.5em 1em;
+  color: white;
+  background-color: #0061ff;
+  text-decoration: none;
+}
+.middlebox {
+  float: left;
+
+  border: 1px solid gray;
+  width: 33%;
+  min-height: 600px;
+}
+.rightbox {
+  float: left;
+
+  border: 1px solid gray;
+  width: 37%;
+  min-height: 600px;
+}
+
+/* Team container */
+.team-container {
+  width: 60%;
+  margin: auto;
+  min-height: 230px;
+  border: 1px solid gray;
+
+  /* test */
+  background-color: aquamarine;
+}
+.support {
+  width: 75%;
+  float: left;
+}
+.team-container .btn-plan {
+  width: 23%;
+  float: left;
+}
+
+.mg1 {
+  padding: 1em 1em;
+}
+.mg2 {
+  padding: 1em 1.6em;
+}
+.mg3 {
+  padding: 1em 2em;
+}
+
+/* /Team container */
+
+/* SECTION PARTNER */
+
+.partner {
+  width: 60%;
+  margin: auto;
+  min-height: 300px;
+}
+.pic-left {
+  width: 50%;
+  margin: auto;
+  min-height: 300px;
+  float: left;
+}
+.text-right {
+  width: 50%;
+  margin: auto;
+  min-height: 300px;
+  float: left;
+}
+
+.btn-plan2 a {
+  padding: 0.5em 1em;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  border: 1px solid;
+  margin: 1.7em;
+}
+
+/* /SECTION PARTNER */
+
+/* SECTION OPERAZIONI */
+
+.operazioni-container {
+  width: 60%;
+  margin: auto;
+  min-height: 500px;
+  /* Test */
+  background-color: antiquewhite;
+}
+.op-container1 {
+  width: 30%;
+  margin: auto;
+  min-height: 400px;
+  float: left;
+  /* test */
+  background-color: red;
+}
+.op-container2 {
+  width: 30%;
+  margin-left: 3em;
+  min-height: 400px;
+  float: left;
+
+  /* test */
+  background-color: blue;
+}
+.op-container3 {
+  width: 30%;
+  margin: auto;
+  min-height: 400px;
+  float: right;
+  /* test */
+  background-color: yellow;
+}
+
+/* /SECTION OPERAZIONI */
 /* </MAIN SECTIONS> */
