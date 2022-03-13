@@ -212,9 +212,6 @@ li {
   margin: auto;
   min-height: 230px;
   border: 1px solid gray;
-
-  /* test */
-  background-color: aquamarine;
 }
 .support {
   width: 75%;
@@ -274,34 +271,42 @@ li {
   width: 60%;
   margin: auto;
   min-height: 500px;
-  /* Test */
-  background-color: antiquewhite;
 }
 .op-container1 {
   width: 30%;
   margin: auto;
-  min-height: 400px;
+  min-height: 450px;
   float: left;
-  /* test */
-  background-color: red;
 }
 .op-container2 {
   width: 30%;
   margin-left: 3em;
-  min-height: 400px;
+  min-height: 450px;
   float: left;
-
-  /* test */
-  background-color: blue;
 }
 .op-container3 {
   width: 30%;
   margin: auto;
-  min-height: 400px;
+  min-height: 450px;
   float: right;
-  /* test */
-  background-color: yellow;
+}
+
+.operazioni-mg-top {
+  margin-top: 2em;
 }
 
 /* /SECTION OPERAZIONI */
+
+/* SECTION USER OF DROPBOX */
+
+.user-container {
+  width: 60%;
+  margin: auto;
+  min-height: 200px;
+}
+.operazioni-mg-top a {
+  text-decoration: underline;
+}
+
+/* /SECTION USER OF DROPBOX */
 /* </MAIN SECTIONS> */
