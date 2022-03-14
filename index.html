@@ -5,39 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dropbox</title>
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
-  <!-- fonts -->
-  <script
-    src="https://kit.fontawesome.com/9fffcb51b5.js"
-    crossorigin="anonymous"
-  ></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
   <body>
     <!-- <header> -->
     <!-- <NAVBAR> -->
     <header>
       <div class="nav-container">
-        <div class="navbar clearfix">
-          <div class="col nav-logo">
-            <img src="img/logo-small.png" alt="Dropbox logo" />
-          </div>
-          <div class="col nav-left">
-            <ul class="header-menu">
-              <li><a href="">Perche Dropbox?</a></li>
-              <li><a href="">Funzioni</a></li>
-              <li><a href="">Piani e prezzi</a></li>
-            </ul>
-          </div>
-          <div class="col nav-right">
-            <ul class="header-menu">
-              <li><a href="">Supporto</a></li>
-              <li><a href="">Contatta l ufficio vendite</a></li>
-              <li><a href="">Accedi</a></li>
-              <li class="btn-right"><a href="">Inizia</a></li>
-            </ul>
-          </div>
+        <div class="nav-img">
+          <img src="img/logo-small.png" alt="" />
+        </div>
+        <div class="navbar-left">
+          <ul>
+            <li><a href="">Perche Dropbox</a></li>
+            <li><a href="">Funzioni</a></li>
+            <li><a href="">Piani e prezzi</a></li>
+          </ul>
+        </div>
+        <div class="navbar-right">
+          <ul>
+            <li><a href="">Supporto</a></li>
+            <li><a href="">Contatta l ufficio vendite</a></li>
+            <li><a href="">Accedi</a></li>
+            <li class="btn-right"><a href="">Inizia</a></li>
+          </ul>
         </div>
       </div>
     </header>
@@ -67,9 +71,7 @@
                 <a href="">Inizia la tua prova gratuita</a>
               </div>
               <p class="text-btn">Anulla in qualsiasi momento</p>
-              <span class="d-arrow"
-                ><i class="fas fa-arrow-down fa-2xl"></i
-              ></span>
+              <span class="d-arrow"><i class="fas fa-arrow-down"></i></span>
             </div>
             <div class="col col-right">
               <img src="img/jumbo.png" alt="" />
@@ -82,7 +84,7 @@
       <!-- <MAIN SECTIONS> -->
       <section class="section-container">
         <div class="plan mg-top">
-          <div class="plan-title">
+          <div class="title">
             <h2>Trova il piano dropbox che fa per te</h2>
           </div>
 
@@ -102,107 +104,195 @@
       <div class="plan-container">
         <div class="leftbox">
           <h2 class="plan-title">
-            <span><i class="fa-thin fa-user"></i></span> Singolo
+            <span class="user"><i class="far fa-user"></i></span> Singolo
           </h2>
+          <br />
+          <hr />
           <h2 class="plan-description mg-left">Professional</h2>
-          <h4 class="plan-price mg-left">19,99&euro;<br />/mese</h4>
-          <h5 class="user mg-left">1 utente</h5>
-          <h5 class="storage mg-left">3TB di spazio di archiviazione sicuro</h5>
-          <h5 class="user mg-left">Funzioni di produttivita premium</h5>
+          <h4 class="plan-price mg-left">19,99&euro;</h4>
+          <p class="margin-left t-color">/mese</p>
+          <br /><br />
+          <p class="margin-left"><i class="far fa-user"></i>1 utente</p>
+
+          <br />
+          <p class="margin-left">
+            <i class="far fa-folder"></i> 3TB di spazio di archiviazione sicuro
+          </p>
+          <br />
+          <p class="margin-left">
+            <i class="fas fa-pen"></i> Funzioni di produttivita premium e
+            condivisione dei file semolice e sicura
+          </p>
+
           <div class="btn-plan">
             <a href="">Inizia la tua prova gratuita</a>
           </div>
-          <h5 class="user mg-left">
-            <br />
-            oppure acquista ora
-          </h5>
+          <br />
+          <br />
+          <p class="margin-left">
+            oppure <span class="buy">acquista ora</span>
+          </p>
+          <br />
           <h3 class="mg-left">Punti salienti del piano</h3>
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
 
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
+
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
+
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
+
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
+
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
         </div>
 
         <div class="mgleft middlebox">
           <h2 class="plan-title">
-            <span><i class="fa-thin fa-user"></i></span> Singolo
+            <span class="team1"><i class="far fa-building"></i></span> Team
           </h2>
+          <br />
+          <hr />
           <h2 class="plan-description mg-left">Professional</h2>
-          <h4 class="plan-price mg-left">19,99&euro;<br />/mese</h4>
-          <h5 class="user mg-left">1 utente</h5>
-          <h5 class="storage mg-left">3TB di spazio di archiviazione sicuro</h5>
-          <h5 class="user mg-left">Funzioni di produttivita premium</h5>
+          <h4 class="plan-price mg-left">19,99&euro;<br /></h4>
+          <p class="margin-left t-color">/utente /mese a partire a 3 utenti</p>
+
+          <br /><br />
+          <p class="margin-left">
+            <i class="far fas fa-user-plus"></i>1 utente
+          </p>
+          <br />
+          <p class="margin-left">
+            <i class="far fa-folder"></i> 3TB di spazio di archiviazione sicuro
+          </p>
+          <br />
+          <p class="margin-left">
+            <i class="far fa-smile"></i> Funzioni di produttivita premium e
+            condivisione dei file semolice e sicura
+          </p>
+
           <div class="btn-plan">
             <a href="">Inizia la tua prova gratuita</a>
           </div>
-          <h5 class="user mg-left">
-            <br />
-            oppure acquista ora
-          </h5>
+          <br />
+          <br />
+          <p class="margin-left">
+            oppure <span class="buy">acquista ora</span>
+          </p>
+          <br />
           <h3 class="mg-left">Punti salienti del piano</h3>
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
 
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
+
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
+
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
+
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
+
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
         </div>
 
         <div class="rightbox">
           <h2 class="plan-title">
-            <span><i class="fa-thin fa-user"></i></span> Singolo
+            <span class="team2"><i class="far fa-building"></i></span> Team
           </h2>
+          <br />
+          <hr />
           <h2 class="plan-description mg-left">Professional</h2>
-          <h4 class="plan-price mg-left">19,99&euro;<br />/mese</h4>
-          <h5 class="user mg-left">1 utente</h5>
-          <h5 class="storage mg-left">3TB di spazio di archiviazione sicuro</h5>
-          <h5 class="user mg-left">Funzioni di produttivita premium</h5>
+          <h4 class="plan-price mg-left">19,99&euro;<br /></h4>
+          <p class="margin-left t-color">/utente /mese a partire a 3 utenti</p>
+
+          <br /><br />
+          <p class="margin-left">
+            <i class="far fas fa-user-plus"></i>1 utente
+          </p>
+          <br />
+          <p class="margin-left">
+            <i class="far fa-folder"></i> 3TB di spazio di archiviazione sicuro
+          </p>
+          <br />
+          <p class="margin-left">
+            <i class="fas fa-pen"></i> Funzioni di produttivita premium e
+            condivisione dei file semolice e sicura
+          </p>
+
           <div class="btn-plan">
             <a href="">Inizia la tua prova gratuita</a>
           </div>
-          <h5 class="user mg-left">
-            <br />
-            oppure acquista ora
-          </h5>
+          <br />
+          <br />
+          <p class="margin-left">
+            oppure <span class="buy">acquista ora</span>
+          </p>
+          <br />
           <h3 class="mg-left">Punti salienti del piano</h3>
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
 
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
-          <h5 class="user mg-left">
-            <i class="fa-duotone fa-check"></i>1 utente
-          </h5>
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
+
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
+
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
+
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
+
+          <p class="mg-left">
+            <i class="fas fa-check"></i> Invia file fino 100GB con Dropbox
+            transfert
+          </p>
         </div>
       </div>
       <!-- /SUBSCRIPTION PLANS -->
@@ -210,8 +300,11 @@
       <!-- CONTATTA TEAM -->
       <div class="team-container clearfix">
         <h2 class="plan-title">
-          <span><i class="fa-thin fa-user"></i></span> Singolo
+          <span><i class="far fa-building"></i></span> Team
+          <br />
+          <br />
         </h2>
+        <hr />
         <div class="support">
           <h2 class="mg1">Enterprise</h2>
           <h4 class="mg2">contatta l ufficio vendita per i prezzi</h4>
@@ -407,7 +500,7 @@
 
       <!-- SECTION PROVA GRATIS -->
 
-      <div class="prova-gratis-container">
+      <div class="prova-gratis-container margin-btmprova">
         <div class="two-prova-containers">
           <div class="prova-container1">
             <h2 class="business-partner">
@@ -417,7 +510,9 @@
           </div>
           <div class="prova-container2">
             <div class="btn-white">
-              <a href="">Inizia la tua prova gratuita</a>
+              <span class="btn-prova"
+                ><a href="">Inizia la tua prova gratuita</a></span
+              >
             </div>
           </div>
         </div>
@@ -427,7 +522,44 @@
 
       <!-- CONTAINER DOMANDE -->
 
-      <div class="domande-container"></div>
+      <div class="domande-container margin-btm3">
+        <h2>Domande frequenti</h2>
+        <ul class="domande margin-btm">
+          <hr />
+          <li class="margin-btm">
+            <h5>
+              Quale e la differenza tra Dropbox business standard e Dropbox
+              business advanced
+              <span class="angle"><i class="fas fa-angle-down"></i></span>
+            </h5>
+          </li>
+          <hr />
+          <li class="margin-btm">
+            <h5>
+              Quale e la differenza tra Dropbox business standard e Dropbox
+              business advanced
+              <span class="angle"><i class="fas fa-angle-down"></i></span>
+            </h5>
+          </li>
+          <hr />
+          <li class="margin-btm">
+            <h5>
+              Quale e la differenza tra Dropbox business standard e Dropbox
+              business advanced
+              <span class="angle"><i class="fas fa-angle-down"></i></span>
+            </h5>
+          </li>
+          <hr />
+          <li class="margin-btm">
+            <h5>
+              Quale e la differenza tra Dropbox business standard e Dropbox
+              business advanced
+              <span class="angle"><i class="fas fa-angle-down"></i></span>
+            </h5>
+          </li>
+          <hr />
+        </ul>
+      </div>
 
       <!-- /CONTAINER DOMANDE -->
       <!-- </MAIN SECTIONS> -->
@@ -492,6 +624,16 @@
               <li><a href="">Sicurezza</a></li>
               <li><a href="">Funzioni</a></li>
             </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-btm-container">
+        <div class="footer-bottom">
+          <div class="region t-color">
+            <i class="fas fa-globe-americas"></i>Italiano<i
+              class="fas fa-angle-up"
+            ></i>
+          </div>
           </div>
         </div>
       </div>
