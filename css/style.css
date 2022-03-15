@@ -391,6 +391,13 @@ ul .btn-right a {
   /* test */
   background-color: #a2d39b;
 }
+.member1 img {
+  filter: invert(1);
+  width: 70%;
+  margin-left: 2em;
+
+  margin-top: 4em;
+}
 .member2 {
   width: 50%;
   min-height: 200px;
@@ -399,9 +406,10 @@ ul .btn-right a {
   background-color: #61082b;
 }
 .member2 img {
-  width: 7em;
+  filter: invert(1);
+  width: 50%;
 
-  margin-top: 1em;
+  margin-top: 3em;
   margin-left: 4em;
 }
 .member3 {
@@ -411,6 +419,13 @@ ul .btn-right a {
   /* test */
   background-color: #0093ce;
 }
+.member3 img {
+  filter: invert(1);
+  width: 70%;
+  margin-left: 2em;
+
+  margin-top: 4em;
+}
 .member4 {
   width: 50%;
   min-height: 200px;
@@ -419,8 +434,9 @@ ul .btn-right a {
   background-color: #ff1c1c;
 }
 .member4 img {
+  filter: invert(1);
   width: 7em;
-  margin-top: 1em;
+  margin-top: 3em;
   margin-left: 4em;
 }
 .members-center {
@@ -454,8 +470,9 @@ ul .btn-right a {
   background-color: #d5001f;
 }
 .member5 img {
+  filter: invert(1);
   width: 7em;
-  margin-top: 1em;
+  margin-top: 4em;
   margin-left: 4em;
 }
 .member6 {
@@ -465,6 +482,12 @@ ul .btn-right a {
   /* test */
   background-color: #b4d0e7;
 }
+.member6 img {
+  filter: invert(1);
+  width: 7em;
+  margin-top: 5em;
+  margin-left: 4em;
+}
 .member7 {
   width: 50%;
   min-height: 200px;
@@ -473,8 +496,9 @@ ul .btn-right a {
   background-color: #0d2481;
 }
 .member7 img {
+  filter: invert(1);
   width: 7em;
-  margin-top: 1em;
+  margin-top: 4em;
   margin-left: 4em;
 }
 .member8 {
@@ -485,8 +509,9 @@ ul .btn-right a {
   background-color: #ffd830;
 }
 .member8 img {
+  filter: invert(1);
   width: 7em;
-  margin-top: 1em;
+  margin-top: 3em;
   margin-left: 4em;
 }
 
